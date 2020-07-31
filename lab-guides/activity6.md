@@ -3,13 +3,13 @@ ___
 
 ## 6. Login as Data Lake Administrator and assign Table permissions
 
-a) Login as data lake administrator user **dladmin**
+a) Login as data lake administrator user **dladmin-alias**
 
 b) From Lake Formation Console, navigate to **Permissions → Data Permissions → Grant**
 
 <img alt="" src="images/6-1.png" width="70%" height="70%" >
 
-c) Select user **dlanalyst**
+c) Select user **dlanalyst-alias**
 
 d) Under **Database** section, select **patientdb**
 
