@@ -16,7 +16,7 @@ d) Navigate to **Permissions → Data Permissions → Grant**
 
 e) Select User **dlanalyst-alias** as well as service role **‘tf-Alias-CFNGlueServiceMLLabRole-RANDOM’**
 
-f) Select **database** as **patientdb**
+f) Select **database** as **patientdb-Alias**
 
 g) Under **Database permissions** select **Super**
 
