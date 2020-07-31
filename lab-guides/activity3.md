@@ -7,7 +7,7 @@ ___
 
 Data lake administrator has to give the privileges to IAM Principal such as a User or Role in order to be able to perform CRUD operations on objects (database/tables) in data catalog.
 
-i) Login as a Data Lake Administrator – dladmin-alias
+i) Login as a Data Lake Administrator – **dladmin-alias**
 
 ii) From Lake Formation console, navigate to **Admins and database creators** under Permissions section in Lake Formation console **→ under Database Creators section Click on Grant 
 → Select user dlanalyst-alias** and check the **Create database option** under Catalog permissions.
@@ -21,11 +21,11 @@ iii) Click on **Grant** to save the Create database permission for the **dlanaly
 
 ### b) Grant Data Location Permission to data analyst and AWS IAM Service Role
 
-You will also need to grant the permission to dlanalyst-alias on the data lake storage.
+You will also need to grant the permission to **dlanalyst-alias** on the data lake storage.
 
 i) In Lake Formation console, navigate to **Permissions → Data locations** → Click on **Grant**
 
-ii) Select the dlanalyst-alias as well as AWS Service Role **‘AWSGlueServiceRole-LF-MLLab’** from **IAM users and roles** dropdown
+ii) Select the **dlanalyst-alias** as well as AWS Service Role **‘tf-Alias-CFNGlueServiceMLLabRole-RANDOM’** from **IAM users and roles** dropdown
 
 iii) In the Storage location field select **‘\<<s3bucket\>>/patientdata’**
 
