@@ -12,15 +12,14 @@ We recommend that CloudFormation template be launched from the user having admin
 
 Region | Launch
 -------|-----
-US East (N. Virginia) | [![Launch Solution in us-east-1](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=aws-lf-ml-transform-wrk&templateURL=https://re-invent2019-lakeformation-ml.s3-us-west-2.amazonaws.com/cloudformation/lf-ml-devendpoint.template)
-US West (Oregon) | [![Launch Solution in us-west-2](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=aws-lf-ml-transform-wrk&templateURL=https://re-invent2019-lakeformation-ml.s3-us-west-2.amazonaws.com/cloudformation/lf-ml-devendpoint.template)
+US East (N. Virginia) | [![Launch Solution in us-east-1](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=lf-bleiva&templateURL=https://templates-cf-bleiva-no-borrar.s3.amazonaws.com/lf-ml-devendpoint.template)
 
-Accept all default values, Click **Next**. On the last page, select the checkbox **I acknowledge that AWS CloudFormation might create IAM resources with custom names** and click on on **Create Stack**.
+Edit StackName and Alias name, instead bleiva, write your name, Click **Next**. On the last page, select the checkbox **I acknowledge that AWS CloudFormation might create IAM resources with custom names** and click on on **Create Stack**.
 Wait for cloudformation template to **Complete**.
 
 CloudFormation template would create the below resources.
-- Data Lake Administrator user (dladmin)
-- Data Lake Analyst (dlanalyst)
+- Data Lake Administrator user (dladmin-${Alias})
+- Data Lake Analyst (dlanalyst-${Alias})
 - S3 Bucket with Sample Patient Dataset having duplicates. **(Use this S3 bucket throughout the lab. The one shown the in the screenshots is only for the reference.)** 
 - Labelling file that would be used in Activity#8
 - Glue Development Endpoint 
