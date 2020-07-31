@@ -5,7 +5,7 @@ ___
 
 ### a) Create FindMatches ML Transform
 
-i) Login as **dlanalyst**
+i) Login as **dlanalyst-alias**
 
 ii) Navigate to AWS Glue Console → On the left side, under **ETL → Jobs → ML Transforms**
 
@@ -13,9 +13,9 @@ iii) Click on **Add Transform**
 
 <img alt="" src="images/8-1.png" width="60%" height="60%" >
 
-iv) Specify **patient-data-ml-transform** as **Transform name**
+iv) Specify **patient-data-ml-transform-Alias-Alias-Alias-Alias-Alias-Alias-Alias-Alias-Alias** as **Transform name**
 
-v) IAM Role as **AWSGlueServiceRole-LF-MLLab**
+v) IAM Role as **tf-Alias-CFNGlueServiceMLLabRole-RANDOM**
 
 vi) Expand **Task Run Properties** section
 
