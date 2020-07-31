@@ -16,7 +16,7 @@ Click on **Get Started** in case you are prompted.
 
 c) Select **Add tables using a crawler**
 
-d) Give Crawler name as **patient-raw-ds-cr** and click **Next**
+d) Give Crawler name as **patient-raw-ds-cr-Alias** and click **Next**
 
 <img alt="" src="images/5-3.png" width="70%" height="70%" >
 
@@ -35,7 +35,7 @@ h) Click **Next**
 
 <img alt="" src="images/5-6.png" width="70%" height="70%" >
 
-i) Select **Choose an existing IAM role** and select **AWSGlueServiceRole-LF-MLLab**
+i) Select **Choose an existing IAM role** and select **‘tf-Alias-CFNGlueServiceMLLabRole-RANDOM’**
 
 <img alt="" src="images/5-7.png" width="70%" height="70%" >
 
@@ -43,7 +43,7 @@ j) Click **Next**
 
 <img alt="" src="images/5-8.png" width="70%" height="70%" >
 
-k) Select **Database** as **patientdb** and click **Next**
+k) Select **Database** as **patientdb-Alias** and click **Next**
 
 <img alt="" src="images/5-9.png" width="70%" height="70%" >
 
