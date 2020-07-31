@@ -19,7 +19,7 @@ e) You can download the csv by removing the **limit** clause in the select state
 
 
 NOTE:
-After landing on Athena console, if you get an error or query doesn’t run, click on the **Set up a query result location in Amazon S3** link and enter the value as **s3://\<\<S3BucketName\>\>/query/**
+After landing on Athena console, if you get an error or query doesn’t run, click on the **Set up a query result location in Amazon S3** link and enter the value as **s3://query-results-digital/Alias**
 
 **Note the trailing slash in the above path!**
 
