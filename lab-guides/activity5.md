@@ -4,7 +4,7 @@ ___
 ## 5. Crawl and catalog Patient data in AWS Glue
 FindMatches ML Transform that we would be using, operates on tables defined in the AWS Glue Data Catalog. Use AWS Glue crawlers to discover and catalog the patient data.
 
-a) Login as **dlanalyst**
+a) Login as **dlanalyst-alias**
 
 b) Navigate to Lake Formation Console **→ Data Catalog → Tables → Create Table using a crawler**
 
@@ -54,7 +54,7 @@ l) Click **Finish** button, select the crawler and click **Run Crawler**
 <img alt="" src="images/5-11.png" width="70%" height="70%" >
 
 
-Once the crawler is run successfully, it would create the table under AWS Glue Data Catalog Database. As a next step, Data Lake User would want to query the data in a data lake through data catalog tables. In order to do this, they would need permission from Lake Formation. In the next step, we login as a Data Lake Administrator and give ‘dlanalyst’ the permission to Select, Insert, Update, Delete data from a table in AWS Glue Data Catalog.
+Once the crawler is run successfully, it would create the table under AWS Glue Data Catalog Database. As a next step, Data Lake User would want to query the data in a data lake through data catalog tables. In order to do this, they would need permission from Lake Formation. In the next step, we login as a Data Lake Administrator and give ‘dlanalyst-alias’ the permission to Select, Insert, Update, Delete data from a table in AWS Glue Data Catalog.
 
 ___
 
