@@ -20,8 +20,8 @@ Click **Next**. On the last page, select the checkbox **I acknowledge that AWS C
 Wait for cloudformation template to **Complete**.
 
 CloudFormation template would create the below resources.
-- Data Lake Administrator user (dladmin-${Alias})
-- Data Lake Analyst (dlanalyst-${Alias})
+- Data Lake Administrator user (dladmin-**Alias**)
+- Data Lake Analyst (dlanalyst-**Alias**)
 - S3 Bucket with Sample Patient Dataset having duplicates. **(Use this S3 bucket throughout the lab. The one shown the in the screenshots is only for the reference.)** 
 - Labelling file that would be used in Activity#8
 - Glue Development Endpoint 
@@ -47,7 +47,7 @@ iii) Click on **Add Administrators**
 
 <img alt="add admin" src="images/1-2.png" width="60%" height="60%" >
 
-iv) Select the Data Lake Administrator as **“dladmin-${Alias}”** user and click on **Save**.
+iv) Select the Data Lake Administrator as **“dladmin-Alias”** user and click on **Save**.
 
 <img alt="dladmin" src="images/1-3.png" width="60%" height="60%" >
 
@@ -56,7 +56,7 @@ v) Another recommended change that you would need to do is to go to Lake Formati
 <img alt="datacatalog" src="images/1-4.png" width="60%" height="60%" >
 
 
-After this step you, would not be using this IAM user again. Instead you will use **dladmin-${Alias}** user as a Data Lake Administrator and **dlanalyst-${Alias}** user as a data lake analyst/developer.
+After this step you, would not be using this IAM user again. Instead you will use **dladmin-Alias** user as a Data Lake Administrator and **dlanalyst-**Alias**** user as a data lake analyst/developer.
 
 ___
 
