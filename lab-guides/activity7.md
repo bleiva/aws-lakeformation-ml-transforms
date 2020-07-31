@@ -5,13 +5,13 @@ ___
 
 You can now query data in Data Lake using Amazon Athena. Perform the below steps:
 
-a) Login as **dlanalyst** if not already
+a) Login as **dlanalyst-Analist** if not already
 
 b) Navigate to **Lake Formation Console → Data Catalog → Tables**
 
 c) Select the **rawdata** table → **Actions → View data**
 
-d) In the **Athena console** → select database as **patientdb → tables rawdata → options Preview**
+d) In the **Athena console** → select database as **patientdb-Alias** → tables rawdata → options Preview
 
 e) You can download the csv by removing the **limit** clause in the select statement and clicking on the **Download the results** icon in the Results section
 
