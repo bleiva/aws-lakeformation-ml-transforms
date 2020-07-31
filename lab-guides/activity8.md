@@ -13,7 +13,7 @@ iii) Click on **Add Transform**
 
 <img alt="" src="images/8-1.png" width="60%" height="60%" >
 
-iv) Specify **patient-data-ml-transform--Alias** as **Transform name**
+iv) Specify **patient-data-ml-transform-Alias** as **Transform name**
 
 v) IAM Role as **tf-Alias-CFNGlueServiceMLLabRole-RANDOM**
 
