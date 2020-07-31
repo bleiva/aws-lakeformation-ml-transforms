@@ -11,7 +11,7 @@ b) From Lake Formation Console, navigate to **Permissions â†’ Data Permissions â
 
 c) Select user **dlanalyst-alias**
 
-d) Under **Database** section, select **patientdb**
+d) Under **Database** section, select **patientdb-Alias**
 
 e) Under **Table** section, select **rawdata**
 
