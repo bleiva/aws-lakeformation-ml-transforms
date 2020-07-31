@@ -13,7 +13,7 @@ iii) Click on **Add Transform**
 
 <img alt="" src="images/8-1.png" width="60%" height="60%" >
 
-iv) Specify **patient-data-ml-transform-Alias-Alias-Alias-Alias-Alias-Alias-Alias-Alias-Alias** as **Transform name**
+iv) Specify **patient-data-ml-transform--Alias** as **Transform name**
 
 v) IAM Role as **tf-Alias-CFNGlueServiceMLLabRole-RANDOM**
 
@@ -56,7 +56,7 @@ In this step we will teach the transform by providing labelled examples of match
 You can create your labeling set yourself or allowing AWS Glue to generate the labeling set based on heuristics.
 AWS Glue extracts records from your source data and suggests potential matching records. The file will container approximately 100 data samples for you to work with. We highly recommend using the “Generate the Labeling file” feature to create the training set to teach your Transform.
 
-i) Select **patient-data-ml-transform** Transform
+i) Select **patient-data-ml-transform-Alias** Transform
 
 ii) Select **Action → Teach transform**
 
