@@ -30,7 +30,7 @@ CloudFormation template would create the below resources.
 - SageMaker Notebook instance with Spark ETL code
 - IAM Role for AWS Glue and Lake Formation
 
-**NOTE: Password for dladmin and dlanalyst users is set to "Digital2020+".**
+**NOTE: Password for dladmin-Alias and dlanalyst-Alias users is set to "Digital2020+".**
 
 ### b. Setup Data Lake Administrator
 Navigate to Lake Formation Dashboard from AWS Management Console.
