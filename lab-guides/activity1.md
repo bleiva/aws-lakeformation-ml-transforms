@@ -13,7 +13,6 @@ We recommend that CloudFormation template be launched from the user having admin
 Region | Launch
 -------|-----
 US East (N. Virginia) | [![Launch Solution in us-east-1](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=lf-bleiva&templateURL=https://templates-cf-bleiva-no-borrar.s3.amazonaws.com/lf-ml-devendpoint.template)
-
 US East (Ohio) | [![Launch Solution in us-east-2](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=lf-bleiva&templateURL=https://templates-cf-bleiva-no-borrar.s3.amazonaws.com/lf-ml-devendpoint.template)
 Edit **StackName** and **Alias** parameter name, instead bleiva, write your name.
 
